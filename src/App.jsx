@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <section className="app">
-        <BrowserRouter>
+        <BrowserRouter basename='/products/'>
           <Header 
             isLoggedIn={isLoggedIn}
             username={username}
