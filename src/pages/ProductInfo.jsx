@@ -18,15 +18,20 @@ const ProductInfo = () => {
 
   return(
     <div className="product-info">
-      <h3>상품 ID: {id}</h3>
-      {/* <p>가격: {products[id-1].price}</p>
+      {/* <h3>상품 ID: {id}</h3>
+      <p>가격: {products[id-1].price}</p>
       <p>설명: {products[id-1].description}</p> */}
-      <p>이름: {product.name}</p>
-      <p>가격: {product.price}</p>
-      <p>설명: {product.description}</p>
+      <div className="product-details">
+        <p>상품 ID: {id}</p>
+        <p>상품명: {product.name}</p>
+        <p>가격: {product.price}</p>
+        <p>설명: {product.description}</p>
+      </div>
       
       {/* <button onClick={() => {navigate('/products')}}>목록보기</button> */}
-      <button onClick={doClick}>목록보기</button>
+      <div className="btn-list">
+        <button onClick={doClick}>목록보기</button>
+      </div>
     </div>
   )
 }

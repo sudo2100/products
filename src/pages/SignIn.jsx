@@ -43,7 +43,7 @@ const SignIn = ({onLogin}) => {
   return(
     <div className="sign-in">
       <h2>로그인</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="signin-form">
         <p>
           <input 
             type="text"

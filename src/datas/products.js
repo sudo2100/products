@@ -10,14 +10,14 @@ export const products = [
   },
   {
     id: 2,
-    name: "마우스",
+    name: "무선마우스",
     price: 30000,
-    description: "무선 마우스입니다."
+    description: "Sudo Teck 무선 마우스입니다."
   },
   {
     id: 3,
-    name: "키보드",
+    name: "무선키보드",
     price: 40000,
-    description: "무선 키보드입니다."
+    description: "Sudo Teck 무선 키보드입니다."
   },
 ]
