@@ -1,0 +1,43 @@
+/* Header 스타일 */
+.header{
+  padding: 20px;
+  background-color: #333;
+}
+.header a{
+  margin: 0 16px;
+  color: yellow;
+  text-decoration: none;
+}
+.header a:hover{
+  color: #eee;
+}
+.header-user{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #eee;
+}
+.logout-btn{
+  padding: 6px 12px;
+  border: 1px solid #ff9f1c;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #ff9f1c;
+  cursor: pointer;
+}
+
+/* Main 스타일 */
+.main{padding: 20px;}
+
+/* 상품 목록 스타일 */
+.product-list{padding: 20px;}
+
+/* 상품 정보 스타일 */
+.product-info{padding: 20px;}
+
+.add-product{padding: 20px;}
+.add-form div{margin: 10px;}
+
+/* 로그인 스타일 */
+.sign-in{padding: 20px;}
+
