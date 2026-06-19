@@ -1,16 +1,11 @@
 /* Header 스타일 */
-.header{
-  padding: 20px;
-  background-color: #333;
-}
+.header{padding: 20px; background-color: #333;}
 .header a{
   margin: 0 16px;
   color: yellow;
   text-decoration: none;
 }
-.header a:hover{
-  color: #eee;
-}
+.header a:hover{color: #eee;}
 .header-user{
   display: inline-flex;
   align-items: center;
@@ -40,23 +35,17 @@
   border: 1px solid #ccc;
   padding: 6px;
 }
-.table-list thead{
-  background-color: #eee;
-}
+.table-list thead{background-color: #eee;}
 .table-list a{
   text-decoration: none;
   color: #333;
 }
-.table-list a:hover{
-  text-decoration: underline;
-}
+.table-list a:hover{text-decoration: underline;}
 .btn-add{
   text-align: right;
   margin-right: 20%;
 }
-.btn-add button{
-  padding: 6px 12px;
-}
+.btn-add button{padding: 6px 12px;}
 
 /* 상품 정보 스타일 */
 .product-info{padding: 20px;}
@@ -66,27 +55,20 @@
   text-align: left;
   padding: 20px;
   border: 1px solid #ddd;
+  background-color: #eee;
+  border-radius: 10px;
 }
 .product-details p{margin: 16px;}
 .btn-list{
   text-align: left;
   margin-left: 30%;
 }
-.btn-list button{
-  padding: 6px 12px;
-}
+.btn-list button{padding: 6px 12px;}
 
 /* 상품 등록 스타일 */
 .add-product{padding: 20px;}
-.add-form{
-  width: 40%;
-  margin: 20px auto;
-  text-align: left;
-}
-.add-form label{
-  display: block;
-  margin: 6px;
-}
+.add-form{width: 40%; margin: 20px auto; text-align: left;}
+.add-form label{display: block; margin: 6px;}
 .add-form input,
 .add-form textarea{
   width: 100%;
@@ -107,11 +89,7 @@
 
 /* 로그인 스타일 */
 .sign-in{padding: 20px;}
-.signin-form{
-  width: 30%;
-  margin: 20px auto;
-  text-align: left;
-}
+.signin-form{width: 30%; margin: 20px auto; text-align: left;}
 .signin-form input{
   width: 100%;
   padding: 8px;
